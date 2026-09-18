@@ -1,0 +1,23 @@
+{
+  "name": "antexe",
+  "version": "1.0.0",
+  "description": "Interactive CLI runner for package.json scripts",
+  "main": "dist/index.js",
+  "bin": {
+    "antexe": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/prompts": "^2.4.4",
+    "typescript": "^5.0.0"
+  }
+}
